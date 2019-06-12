@@ -8,6 +8,10 @@ function takeANumber(katzDeliLine, name) {
   return msg;
 }
 
+function takeANumber(katzDeliLine) {
+  var position = (katzDeliLine.length
+}
+
 function nowServing(katzDeliLine) {
   var msg = "";
   if (katzDeliLine.length ===0) {
